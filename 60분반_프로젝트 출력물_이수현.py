@@ -6,9 +6,9 @@ cnt = 0
  
 while True:
  
-    # ID, PW 입력받기
-    id = input('ID 입력:')
-    pw = input('PW 입력:')
+    # ID, 비밀번호 입력받기
+    id = input('ID:')
+    pw = input('비밀번호:')
  
     # ID 와 PW 일치하는지 비교
     if id=='BACKKOM' and pw=='Pysj0518!!':
@@ -29,13 +29,10 @@ while True:
     
 #기초 정보 입력    
 print("기초 정보를 입력하겠습니다.")
-pay = input("시급을 입력해주세요 : ")
-time_of_day = input("일일근무시간 : ")
-day_of_month = input("한달근무일수 : ")
+pay = int(input("시급을 입력해주세요 : "))
+time_of_day = int(input("일일근무시간 : "))
+day_of_month = int(input("한달근무일수 : "))
 
-pay = int(pay)
-time_of_day = int(time_of_day)
-day_of_month = int(day_of_month)
 
 # 월급 계산
 profit = pay * time_of_day * day_of_month
@@ -65,3 +62,17 @@ print('''
 항상 긍정적으로 생각하세요!!!''')
 
 print("이용해주셔서 대단히 감사합니다!")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
